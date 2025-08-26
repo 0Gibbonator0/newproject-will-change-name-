@@ -24,6 +24,7 @@ a:hover {
 
 body {
   margin: 0;
+  background: linear-gradient(135deg, #4e4f4b 0%, #202021 100%);
   display: flex;
   place-items: center;
   min-width: 320px;
