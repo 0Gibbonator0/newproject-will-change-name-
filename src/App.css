@@ -44,6 +44,7 @@ body{
 
 .center { max-width: 900px; margin: 0 auto; } 
 .mt-2 { margin-top: 8px; color: white; font: bold; font-size: 20px;}
+.mt-3 { margin-top: 8px; color: white; font: bold; font-size: 20px;}
 .mt-4 { margin-top: 16px; }
 
 
@@ -107,6 +108,16 @@ body{
   margin-top: 24px;
 }
 
+.about-top-left {
+  font-size: 2rem;
+  font-weight: 600;
+  color:white;
+  margin: 0;
+  position: absolute;
+  top: 200px;
+  left: 160px;
+}
+
 .btn {
   display: inline-block;
   padding: 12px 24px;
@@ -147,7 +158,6 @@ body{
   margin: 100px auto 100px 170px;
   margin-bottom: 199px;
   transition: all 0.3s ease;
-
 }
 
 .profile-box:hover {
@@ -162,4 +172,16 @@ body{
   transform: scale(1.1);
   object-position: 40% 65%;
   
+}
+
+.text-box-left {
+  width: 475px;
+  height: 475px;
+  background: rgb(53, 52, 52);
+  border-radius: 12px;
+  overflow:hidden;
+  border: 2px solid white;
+  position: absolute;
+  top: 250px;
+  left: 60px;
 }
