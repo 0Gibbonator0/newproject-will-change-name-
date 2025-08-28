@@ -1,9 +1,17 @@
 import "../App.css";
 import { Link } from "react-router-dom";
 import profilePic from "../assets/profile.jpg";
+import { motion } from "framer-motion";
 
 export default function Home() {
   return (
+    <motion.div
+      className = "page page-home"
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      exit={{ opacity: 0 }}
+      transition = {{ duration: 0.7 }}
+      >
       <div className = "page page--home"> 
         <div className = "profile-box">
           {<img src={profilePic} alt = "Arsh" className = "profile-img"/>}
@@ -24,6 +32,7 @@ export default function Home() {
 
         </div>
       </div>
+    </motion.div>
   );
 }
 
