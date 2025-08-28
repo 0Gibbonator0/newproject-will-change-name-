@@ -13,7 +13,7 @@ export default function Home() {
           <h2 className = "home-subtitle">Computer Engineering Student</h2>
           <p className = "mt-2">
             I'm passionate about building coding projects, problem solving through code, and improving my
-            technical skills throgh LeetCode and software development.
+            technical skills through LeetCode and software development.
           </p>
 
           <div className = "home-buttons mt-4">
