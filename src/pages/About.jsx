@@ -52,6 +52,7 @@ export default function About() {
               <h1 className = "about-middle">Career Goals</h1>
               <h1 className = "about-top-left">Background & Skills</h1>
               <h1 className = "about-top-right">Personal / Fun Facts</h1>
+              <h1 className = "about-title">Who Am I?</h1>
           </div>
       </motion.div>
   );

@@ -11,21 +11,22 @@ export default function App() {
     const location = useLocation();
 
     return (
-        <AnimatePresence mode = "wait">
-            <nav className = "nav">
+      <>
+        <nav className = "nav">
                 <Link to="/">Home</Link> |{" "}
                 <Link to="/about">About</Link> |{" "}
                 <Link to="/projects">Projects</Link> |{" "}
                 <Link to="/contact">Contact</Link> 
-            </nav>
+        </nav>
 
+        <AnimatePresence mode = "wait">
             <Routes location = {location} key = {location.pathname}>
                 <Route path="/" element={<Home />} />
                 <Route path="/about" element={<About />} />
                 <Route path="/projects" element={<Projects />} />
                 <Route path="/contact" element={<Contact />} />
             </Routes>
-
         </AnimatePresence>
+      </>
     );
 }

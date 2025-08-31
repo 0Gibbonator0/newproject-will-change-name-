@@ -108,13 +108,39 @@ body{
   margin-top: 24px;
 }
 
+.projects-title {
+  font: bold;
+  font-size: 3.2rem;
+  margin-bottom: 850px;
+  justify-content: center;
+  color: white;
+}
+
+.contact-title {
+  font: bold;
+  font-size: 3.2rem;
+  margin-bottom: 850px;
+  justify-content: center;
+  color: white;
+}
+
+.about-title {
+  font: bold;
+  font-size: 2.2rem;
+  margin-bottom: 870px;
+  justify-content: center;
+  color: white; 
+
+}
+
+
 .about-top-left {
   font-size: 2rem;
   font-weight: 600;
   color:white;
   margin: 0;
   position: absolute;
-  top: 200px;
+  top: 220px;
   left: 160px;
 }
 
@@ -124,7 +150,7 @@ body{
   color:white;
   margin: 0;
   position: absolute;
-  top: 200px;
+  top: 220px;
   right: 160px;
 }
 
@@ -134,7 +160,7 @@ body{
   color:white;
   margin: 0;
   position: absolute;
-  top: 200px;
+  top: 220px;
 }
 
 .btn {
@@ -201,7 +227,7 @@ body{
   overflow:hidden;
   border: 2px solid white;
   position: absolute;
-  top: 250px;
+  top: 270px;
   left: 60px;
 }
 
@@ -213,7 +239,7 @@ body{
   overflow:hidden;
   border: 2px solid white;
   position: absolute;
-  top: 250px;
+  top: 270px;
   right: 60px;
 }
 
@@ -225,7 +251,7 @@ body{
   overflow:hidden;
   border: 2px solid white;
   position: absolute;
-  top: 250px;
+  top: 270px;
   
 }
 
