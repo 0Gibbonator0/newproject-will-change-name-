@@ -1,3 +1,5 @@
+
+/* General page look with sub categories for different pages */
 .page { box-sizing: border-box;}
 .page--home    { 
   background: linear-gradient(135deg, #e80606 0%, #e5f109 100%); 
@@ -30,6 +32,8 @@
   width: 100vw;
   height: 100vh;
 }
+  
+/*Height classes */
 
 .top1 {
   position: absolute;
@@ -71,6 +75,7 @@
  
 }
 
+/*Overall body look to prevent overflow and keep page in screen */
 body{
   overflow:hidden;
   padding:0;
@@ -79,6 +84,7 @@ body{
   font-family: system-ui, sans-serif; 
 }
 
+/*Center and text classes */
 .center { max-width: 900px; margin: 0 auto; } 
 .mt-2 { margin-top: 8px; color: white; font-weight: bold; font-size: 20px;}
 .mt-3 { margin-top: 8px; color: white; font-weight: bold; font-size: 19px;}
@@ -86,7 +92,7 @@ body{
 .mt-4 { margin-top: 16px; }
 .mt-6 {color: white; font-weight:bold; font-size: 25px;}
 
-
+/*Nav bar classes */
 .nav {
   background: transparent;
   padding: 30px;
@@ -147,6 +153,7 @@ body{
   margin-top: 24px;
 }
 
+/*Projects page classes */
 .projects-title {
   font: bold;
   font-size: 3.2rem;
@@ -156,6 +163,7 @@ body{
   padding: 6px 8px;
 }
 
+/*Contact page class */
 .contact-title {
   font: bold;
   font-size: 3.2rem;
@@ -179,7 +187,7 @@ body{
   text-decoration: underline;
 }
 
-
+/*About page classes */
 .about-title {
   font: bold;
   font-size: 2.2rem;
@@ -219,6 +227,7 @@ body{
   top: 220px;
 }
 
+/*Button classes */
 .btn {
   display: inline-block;
   padding: 12px 24px;
@@ -269,6 +278,7 @@ body{
   color: white;
 }
 
+/*Profile (showing my face) classes */
 .profile-box{
   width: 400px;
   height: 400px;
@@ -295,6 +305,8 @@ body{
   
 }
 
+
+/*Text box classes */
 .text-box-left {
   width: 475px;
   height: 570px;
@@ -331,11 +343,15 @@ body{
   
 }
 
+
+/*Quick line spacing class to make text look more organized */
 .line-spacing {
   line-height: 1.6;
   margin-left: 10px;
 }
 
+
+/*Video box classes to showcase video of projects */
 .video-box {
   width: 600px;
   height: 400px;
